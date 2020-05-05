@@ -1,0 +1,34 @@
+{
+    "pasteurizers": { 
+    "compactVend":{
+        "id":1,
+        "name":"Unison Compact HTST Milk Vending Machine Pasteurizer",
+        "manufacturer": "Unison Engineering",
+        "img1":"../img/product-img-1.jpg",
+        "img2":"../img/product-img-2.jpg",
+        "img3":"../img/product-img-1.jpg",
+        "img4":"../img/product-img-2.jpg",
+        "price":12950,
+        "informationParagraph":"Designed for Milk Vending Machines. This model of pasteurizer will include automatic filling and a facility for cleaning the vending machine tank. All machine cleaning data is automatically logged by the pasteurizer",
+        "suitable":"Milk",
+        "capacity":200,
+        "dimensions":"760mm x 1,050mm x 1,100mm (L, W, H)",
+        "weight":150
+},
+    "compactRegular":{
+        "id":2,
+        "name":"Unison Compact HTST Pasteurizer",
+        "manufacturer": "Unison Engineering",
+        "img1":"../img/product-img-1.jpg",
+        "img2":"../img/product-img-2.jpg",
+        "img3":"../img/product-img-1.jpg",
+        "img4":"../img/product-img-2.jpg",
+        "price":12950,
+        "informationParagraph":"Designed for your process.",
+        "suitable":"Milk, Cheese Milk, Juice, Cider, Beer, Wine",
+        "capacity":2000,
+        "dimensions":"760mm x 1,050mm x 1,100mm (L, W, H)",
+        "weight":150
+    }
+    }
+}
