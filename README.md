@@ -30,6 +30,7 @@
 ### Updates
 
 1. **Wording/Grammar**
+	
 	Spelling/grammar error 'with in' changed to 'within'.
 	
 	- **When:** 16 January 2020
@@ -38,6 +39,7 @@
 	  - Line #23 in [Contact](./contact.php)
 
 2. **Pasteurizer Pricing and Images Update**
+	
 	Details of pasteurisers and images of two products updated.
 	
 	- **When:** 16 January 2020
@@ -148,6 +150,23 @@
 		 	$recipient = 'info@unisonengineering.ie'; // This is who receives the mail, i.e. change to sales team for production build
 
 
+4. **Broken link in footer**
+	- **Description**
+		
+		*Patch by Daniel Jackson 2020-05-05 @ 12:00 IST (UTC +1)*
+
+		*Issue:* Raised by Daniel Jackson 2020-05-05 @ 12:00 IST (UTC +1). Link in footer to equipment has a slash at the end causing broken links.
+
+		*Analysis:* Remove of forward slash at the end of hyperlink. 
+		
+		*Resolution:* Removed forward slash at the end of hyperlink, added .php extension. 
+	
+	- **When:** 5 May 2020
+	- **File(s):**
+	
+	  - Line #7 #8 in [footer](./footer.php)
+	  - Line #7 #8 in [footer](./tree/foot-l2.html)
+	  - Line #7 #8 in [footer](./tree/foot-l3.html)
 
 
 
