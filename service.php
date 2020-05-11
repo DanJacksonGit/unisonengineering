@@ -11,12 +11,13 @@
 </head>
 <header>
   <?php include 'nav.html'; ?>
+  <?php include 'covid-banner.html'; ?>
 </header>
 <div class="container padding-lr-3">
   <!--START SEC 1-->
   <div class="row">
     <div class="col-md-8">
-      <h1 style="text-transform:uppercase;">Service</h1>
+      <h1>Service</h1>
       <p>
         <strong>
           We know that when it comes to selecting your servicing partner, it’s not just about competitive rates, it’s about keeping expensive downtime to a minimum. We are on site fast and aim to fix first visit.
@@ -113,12 +114,13 @@
           <li>Customer on-site inventory of pump spare parts.</li>
         </ul>
         <p>
-        For any servicing enquiries send our sales team an email on <strong>info<code style="color:inherit;">@</code>unisonengineering.ie</strong> now.</li>
-      </p>
+          For any servicing enquiries send our sales team an email on <strong>info<code style="color:inherit;">@</code>unisonengineering.ie</strong> now.</li>
+        </p>
       </div>
     </div>
     <!--END-->
   </div>
 </div>
 <?php include './footer.html' ?>
+
 </html>

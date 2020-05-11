@@ -25,7 +25,6 @@
  -->
 
 ## Dev Notes <a name="dev-notes"></a>
-*(This is where dev-specific notes about how things are set up go. Some ideas/examples are listed below.)*
 
 ### Updates
 
@@ -59,13 +58,97 @@
 
 3. **New ECA Disinfectant Product and Covid-19 update**
 	
-	In progress
+	Large update: Significant changes noted below.
+
+	**Short summary:** Added new content to reflect Covid-19 global pandemic and product Unison make that can sanitise this. Also addressed some UI annoyances and made some UX improvements. formatted code and implemented a minified css sheet for production build.
 	
-	- **When:** 5 May 2020
+	- **When:** 5 - 11 May 2020
 	- **File(s):**
 	
-	  - Line #X in [X](./)
-	
+	  - New:
+	  	- [Covid Banner](./covid-banner.html) banner below nav on most pages throughout the site. Goal is to tell users what the company are doing re: coronavirus.
+		- [Covid Banner (L2)](./tree/covid-banner-l2.html) see above
+		- [Covid Banner (L3)](./tree/covid-banner-l3.html) see above
+	  	- [ECA Disinfectant](./equipment/eca-disinfectant.php) Same format as equipment & products. Sselection page for information articles about ECA Water.
+		- [About ECA (article)](./equipment/eca-disinfectant/about-eca.php) New article format.
+		- [Avian Influenza (article)](./equipment/eca-disinfectant/avian-influenza.php) New article format.
+		- [Coronavirus Covid-19 (article)](./equipment/eca-disinfectant/covid-19.php) New article format.
+		- [Validation (article)](./equipment/eca-disinfectant/validation.php) New article format.
+
+	  - Updated
+	    - [Contact form mailer](./equipment/eca-disinfectant/validation.php) Formatting - Spacing for readability on lines 3, 23, 25.
+		- [Equipment & Products](./equipment.php) 
+			- Line #7 Updated title to reflect that this page now shows products (On the basis that ECA Water is not equipment)
+			- Line #13 Added covid-banner component
+			- Line #18 Code Formatting (space). h1 now reads "Equipment '& Products'"
+			- Line #19 Added max-width property on p for UX (paragraph lines should be no longer than ~70 characters to prevent readibility confusion). Updated description to reflect new ECA product.
+			- Line #29 Shortened description
+			- Line #31 Improved copy on call to action
+			- Line #41 Shortened description
+			- Line #43 Improved copy on call to action
+			- Line #44-53 New card for ECA fluid
+			- Line #62-64 Formatting & Grammar improvement
+			- Line #75 Shortened description
+			- Line #77 Improved copy on call to action
+			- Line #87 Shortened description
+			- Line #89 Improved copy on call to action
+			- Line #99 Shortened description
+			- Line #101 Improved copy on call to action
+        - [Equipment List (component)](./contact-form-mailer.php) Formatting, Line #10-12 added ECA Disinfectant
+		- [Footer](./footer.html) #49 Line Formatting & comment.
+		- [Footer L2](./tree/foot-l2.html) Formatting, comment & adding mailchimp signup.
+		- [Footer L3](./tree/foot-l3.html) Formatting, comment & adding mailchimp signup.
+		- [Head - meta info](./head.html) Formatting
+		- [Heat Exchangers](./heat-exchangers.php) Formatting, added covid banner, #21-26 added button pointed to 'Equipment & Products' - improve UX. Fixed incorrect footer component link.
+		- [Home](./index.php) 
+			- Formatting
+			- Line #15 covid banner component added
+		- [Homogenisers](./homogenisers.php) Formatting, added covid banner, #22-27 added button pointed to 'Equipment & Products' - improve UX. Fixed incorrect footer component link.
+		- [Nav](./nav.html)
+			- General formatting for readability
+			- Line #2, #23 Added div wrapper ".nav-content" to give Nav a max-width. Better UX, more visual continuity.
+		- [Nav L2](./tree/nav-l2.html) See 'Nav' above
+		- [Nav L3](./tree/nav-l3.html) See 'Nav' above
+		- [Not Found/404](./not_found.html) Formatting. Improved UX, fixed width issue on background image.
+		- [Other Miscellaneous Equipment](./other.php) Formatting, added covid banner, #21-26 added button pointed to 'Equipment & Products' - improve UX. Line #29: Improved wording, unnecessary hyperbole in page description 'brand new' removed. Fixed incorrect footer component link.
+		- [Pasteurisers (Product Result Page)](./pasteurisers.php) Formatting, added covid banner line #14, #20-24 added button pointed to 'Equipment & Products' - improve UX. Fixed incorrect footer component link.
+		- [Pasteurizer (Marketing showcase page)](./pasteurizer.php) Formatting
+		- [Pasteurizer Enquiry Form](./pasteurizer-enquiry-form.php) Formatting
+		- [Pumps](./pumps.php) Formatting, removed uppercase h1, added line #14 covid banner. Added button pointed to 'Equipment & Products' - improve UX. Fixed incorrect footer component link.
+		- [Send Mail (PHP form mailing script)](./pasteurizer/send-mail.php) Formatting
+		- [Service](./service.php) Formatting, removed uppercase h1, added line #14 covid banner
+		- [Spares](./spares.php) Formatting, removed uppercase h1, added line #16 covid banner
+		- [Spares](./testing.php) 
+			- General formatting
+			- Line #14 Added covid banner 
+			- Line #19 removed uppercase h1 
+			- Line #30 fixed wording
+		- [Valves](./valves.php) Formatting, added covid banner, #23-28 added button pointed to 'Equipment & Products' - improve UX. Fixed incorrect footer component link.
+		- [CSS Stylesheet (Non-minified)](./css/main.css) 
+			Along with formatting and comments to make things easier to understand:
+			- Line #38-52 		New colour variables 
+			- Line #87 			h1 increased in size - UI improvement
+			- Line #93-97  		h1 on mobile back to appropriate size on mobile
+			- Line #153-174 	.main-button moved here for better continuity
+			- Line #183-207		.back-button new class for back buttons globally 
+			- Line #216-333 	.article and related new classes
+			- Line #345 		commented padding-top: covid banner temp taking space
+			- Line #365 		commented padding-top: covid banner temp taking space
+			- Line #377-379		.padding-main new home
+			- Line #401-415		moving classes closer to their companions - continuity 
+			- Line #657 		Added max-height to nav on landcape and up class for covid banner
+			- Line #672-675		.nav-content new class to constrain nav to a max-width for better UX and UI. Nav doesn't remain hard left/hard right on widescreens anymore 
+			- Line #688 		added !important to text-decoration to rid link underlines on hover
+			- Line #759-762		Commented container top padding due to covid-banner now in its place 
+			- Line #783 		reduced mobile #logo img in nav margin-bottom by 5px - UI adjustment 
+			- Line #789 		added min-height to mobile nav 
+			- Line #842-955		.covid-banner and related new styling
+			- Line ~#1066 		.atf-blocks img class removed due to unnecessary.
+			- Line #1393 		.testimonial-body img gave width/height a % for ff compatibility. changed margin-top value to %
+			- Line #1403-1419	.testimonial-body & testimonial-body blockquote improved for better reading, narrower width (better UX), also changed text font size to em value.
+			- Line #1556 		.category-selection duplicate margin (vw) removed and replaced with padding rem value that was in use already
+			- Line #1780 		Added max-width to .equipment-nav li - UI improvement
+			- Line #1802		Added margin to mobile .list-card
 
 ### Hacks/Kludges/Patches
 
@@ -171,4 +254,4 @@
 
 
 ## Credits <a name="credits"></a>
-Built & designed by Daniel Jackson @ Unison Engineering Services Ltd.
+Built & designed by Daniel Jackson @ Unison Engineering Services Ltd. 

@@ -13,12 +13,13 @@
 <body>
   <header>
     <?php include 'nav.html'; ?>
+    <?php include 'covid-banner.html'; ?>
   </header>
   <div class="container padding-lr-3">
     <!--START SEC 1-->
     <div class="row">
       <div class="col-md-8">
-        <h1 style="text-transform:uppercase;">Spare Parts Available:</h1>
+        <h1>Spare Parts Available:</h1>
         <div class="bullets pt-3">
           <ul id="parts-list">
             <li>Actuators</li>
@@ -82,7 +83,7 @@
         <p>Unison Engineering are specialists in all makes and models of Process Valves for the liquid processing industries including Dairy, Food, Beverage and Chemical. Most common parts are available on a same day delivery in the event of an emergency. APV, Tetra Pak, Niro Soavi and Alfa Laval homogeniser spare parts are available from stock.</p>
         <h6>Pumps</h6>
         <p>Our years of experience makes us specialists in all makes and models of Process Pumps for the liquid processing industries including Dairy, Food, Beverage and Chemical.
-Most common parts are available on a same day delivery in the event of an emergency. APV, Tetra Pak, Fristam, Hilge, Mono, Inoxpa, Alfa Laval, Waukesha and Packo pump spare parts are available from stock.</p>
+          Most common parts are available on a same day delivery in the event of an emergency. APV, Tetra Pak, Fristam, Hilge, Mono, Inoxpa, Alfa Laval, Waukesha and Packo pump spare parts are available from stock.</p>
         <p></p>
       </div>
     </div>
@@ -91,4 +92,5 @@ Most common parts are available on a same day delivery in the event of an emerge
   </div>
   <?php include './footer.html' ?>
 </body>
+
 </html>

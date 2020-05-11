@@ -9,14 +9,12 @@
   <script src="./js/jquery.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 </head>
-<!--Body-->
 
 <body>
   <?php include 'nav.html'; ?>
   <div class="container">
     <div class="landing-container">
       <div class="p1-land vertical-center">
-        <!-- <h1 class="animated fadeInLeft slow">Take Control of your Pasteurization Costs</h1> -->
         <h1 class="animated fadeInLeft slow">Take Control of your Pasteurization Costs</h1>
         <a href="#p2" style="font-weight:900;">Get Started</a><br />
         <a href="#p5" style="font-weight:900;">How do I enquire?</a>
@@ -91,45 +89,6 @@
   const headlineBreakpoint = 500;
   const introducingBreakpoint = 500;
   const landingBreakpoint = 600;
-  /*
-    window.onscroll = function() {
-      scrollFunctionHeadline();
-      scrollFunctionIntroducing();
-      scrollFunctionLandingImg();
-    };
-       // h2
-      function scrollFunctionHeadline() {
-        if(document.body.scrollTop > headlineBreakpoint || document.documentElement.scrollTop > headlineBreakpoint) {
-          // Coming In
-            document.getElementById("subheadline").style.opacity = "100"; // 100% Visible
-            document.getElementById("subheadline").className = "animated zoomInRight fast"; // Fade in from left
-            } 
-            else {
-              //Going Out
-              document.getElementById("subheadline").style.opacity = "0"; // Invisible 
-              document.getElementById("subheadline").className = "animated fadeOutLeft slow"; // Fade out slowly
-              }}
-        //h5
-        function scrollFunctionIntroducing() {
-        if(document.body.scrollTop > introducingBreakpoint || document.documentElement.scrollTop > introducingBreakpoint) {
-            document.getElementById("introducing").style.opacity = "100";
-            document.getElementById("introducing").className = "animated zoomInLeft fast";
-            } 
-            else {
-              document.getElementById("introducing").style.opacity = "0";
-              document.getElementById("introducing").className = "animated zoomOutDown slow";
-              }}
-              //image
-              function scrollFunctionLandingImg() {
-        if(document.body.scrollTop > landingBreakpoint || document.documentElement.scrollTop > landingBreakpoint) {
-            document.getElementById("landing-img").style.opacity = "100";
-            document.getElementById("landing-img").className = "animated zoomInUp fast";
-            } 
-            else {
-              document.getElementById("landing-img").style.opacity = "0";
-               document.getElementById("landing-img").className = "animated zoomOutDown slower";
-              }}
-               */
   $(document).ready(function() {
     // Add smooth scrolling to all links
     $("a").on('click', function(event) {

@@ -14,12 +14,18 @@
 
 <body>
   <!-- Navigation -->
-  <?php include '.././tree/nav-l3.html'; ?>
+  <?php include '.././tree/nav-l2.html'; ?>
+  <?php include '.././tree/covid-banner-l2.html'; ?>
   <div class="container padding-main">
     <!-- Equipment type details -->
     <div class="row">
       <div class="col-md-8">
-        <h1 style="text-transform:uppercase;">Valves</h1>
+        <h1>Valves</h1>
+        <a href="../equipment.php">
+          <button class="back-button">
+            &#8592; Equipment & Products
+          </button>
+        </a>
         <p>
           <strong>
             Shut-off, Block or Regulation valves? For Hygienic or Aseptic application? See our selection of Fluid Process Valves. For Valve Sealing Quality, Long Service Life and Hygiene that ensures high performance across your line. </strong>
@@ -383,43 +389,44 @@
           </div>
         </div>
         <!-- Card^n END -->
-      </div>
-    </div>
-  </div>
-  <?php include '.././tree/foot-l3.html'; ?>
-  <script>
-    $(document).ready(function() {
-      $("#elem-1").click(function() {
-        $("#toggle-1").toggle();
-      });
-      $("#elem-2").click(function() {
-        $("#toggle-2").toggle();
-      });
-      $("#elem-3").click(function() {
-        $("#toggle-3").toggle();
-      });
-      $("#elem-4").click(function() {
-        $("#toggle-4").toggle();
-      });
-      $("#elem-5").click(function() {
-        $("#toggle-5").toggle();
-      });
-      $("#elem-6").click(function() {
-        $("#toggle-6").toggle();
-      });
-      $("#elem-7").click(function() {
-        $("#toggle-7").toggle();
-      });
-      $("#elem-8").click(function() {
-        $("#toggle-8").toggle();
-      });
-      $("#elem-9").click(function() {
-        $("#toggle-9").toggle();
-      });
-      $("#elem-10").click(function() {
-        $("#toggle-10").toggle();
-      });
-    });
-  </script>
+      </div> <!-- .col-md-9 -->
+    </div> <!-- .row -->
+  </div> <!-- .container .padding-main -->
 </body>
+<?php include '.././tree/foot-l2.html'; ?>
+<script>
+  $(document).ready(function() {
+    $("#elem-1").click(function() {
+      $("#toggle-1").toggle();
+    });
+    $("#elem-2").click(function() {
+      $("#toggle-2").toggle();
+    });
+    $("#elem-3").click(function() {
+      $("#toggle-3").toggle();
+    });
+    $("#elem-4").click(function() {
+      $("#toggle-4").toggle();
+    });
+    $("#elem-5").click(function() {
+      $("#toggle-5").toggle();
+    });
+    $("#elem-6").click(function() {
+      $("#toggle-6").toggle();
+    });
+    $("#elem-7").click(function() {
+      $("#toggle-7").toggle();
+    });
+    $("#elem-8").click(function() {
+      $("#toggle-8").toggle();
+    });
+    $("#elem-9").click(function() {
+      $("#toggle-9").toggle();
+    });
+    $("#elem-10").click(function() {
+      $("#toggle-10").toggle();
+    });
+  });
+</script>
+
 </html>

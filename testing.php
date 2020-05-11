@@ -11,25 +11,23 @@
 </head>
 <header>
   <?php include 'nav.html'; ?>
+  <?php include 'covid-banner.html'; ?>
 </header>
 <div class="container padding-lr-3">
   <!--START SEC 1-->
   <div class="row">
     <div class="col-md-8">
-      <h1 style="text-transform:uppercase;">Testing</h1>
+      <h1>Testing</h1>
       <p>
         <strong>
-          As the testing specialists, we’re leading the field with our unique, patented Heat Exchanger Testing technology.
+          As testing specialists, we’re leading the field with our unique, patented Heat Exchanger Testing technology.
         </strong>
-      </p>
-      <p>
-        Testing on your equipment should be thorough, quick, and professional. Our expert testing services include:
       </p>
       <p>
         For any integrity testing enquiries send our sales team an email on <strong>info<code style="color:inherit;">@</code>unisonengineering.ie</strong> now.</li>
       </p>
       <p>
-        Our staff are here to help with every step of the process.
+        Our staff are here to help with every step of the process. Testing on your equipment should be thorough, quick, and professional. Our expert testing services are oulined below.
       </p>
     </div>
     <!-- image -->

@@ -10,13 +10,18 @@
 </head>
 
 <body>
-  <!-- Navigation -->
-  <?php include '.././tree/nav-l3.html'; ?>
+  <?php include '.././tree/nav-l2.html'; ?>
+  <?php include '.././tree/covid-banner-l2.html'; ?>
   <div class="container padding-main">
     <!-- Equipment type details -->
     <div class="row">
       <div class="col-md-8">
-        <h1 style="text-transform:uppercase;">Pasteurizers</h1>
+        <h1>Pasteurizers</h1>
+        <a href="../equipment.php">
+          <button class="back-button">
+            &#8592; Equipment & Products
+          </button>
+        </a>
         <p>
           <strong>
             Unison Engineering Services Ltd's Pasteurizers are dependable, economical and available to international markets. Pasteurization is generally procedure number one when it comes to preservation of freshly filled products.
@@ -69,7 +74,7 @@
     </div>
     <!-- Container for sub nav and cards-->
     <div class="row">
-    <?php include 'equipment-list.html'; ?>
+      <?php include 'equipment-list.html'; ?>
       <!-- Cards Container -->
       <div class="col-md-9">
         <!-- Card^n START -->
@@ -89,9 +94,9 @@
             </ul>
             <button style="display:block;margin-bottom:10px;margin-left:.25rem;font-size:0.85em;" id="elem-1" class="btn-default btn-secondary btn-sm py-2">More Details</button>
             <div id="toggle-1" style="display:none">
-            <p>Designed for Milk Vending Machines. This model of pasteuriser includes automatic filling and a facility for cleaning the vending machine tank.
-              All machine cleaning data is automatically logged by the pasteuriser.
-            </p>
+              <p>Designed for Milk Vending Machines. This model of pasteuriser includes automatic filling and a facility for cleaning the vending machine tank.
+                All machine cleaning data is automatically logged by the pasteuriser.
+              </p>
             </div>
             <button onclick="window.location.href='../pasteurizer/pasteurizer-enquiry-form.php'" class="btn btn-primary ml-1 mt-2">Begin Online Enquiry</button><a href="tel:+35361422224"><button class="btn btn-outline-secondary ml-1 mt-2">Enquire by Phone now</button></a>
           </div>
@@ -146,7 +151,7 @@
             <button style="display:block;margin-bottom:10px;margin-left:.25rem;font-size:0.85em;" id="elem-3" class="btn-default btn-secondary btn-sm py-2">More Details</button>
             <div id="toggle-3" style="display:none">
               <p>
-                This pasteurizer is specifically designed to reduce the risk of your calves contracting disease from potentially contaminated milk. Enquire for more information. 
+                This pasteurizer is specifically designed to reduce the risk of your calves contracting disease from potentially contaminated milk. Enquire for more information.
               </p>
             </div>
             <button onclick="window.location.href='../pasteurizer/pasteurizer-enquiry-form.php'" class="btn btn-primary ml-1 mt-2">Begin Online Enquiry</button><a href="tel:+35361422224"><button class="btn btn-outline-secondary ml-1 mt-2">Enquire by Phone now</button></a>
@@ -199,43 +204,44 @@
           </div>
         </div>
         <!-- Card^n END -->
-      </div>
-    </div>
-  </div>
-  <?php include '.././tree/foot-l3.html'; ?>
-  <script> 
-    $(document).ready(function(){
-      $("#elem-1").click(function(){
-        $("#toggle-1").toggle();
-      });
-      $("#elem-2").click(function(){
-        $("#toggle-2").toggle();
-      });
-      $("#elem-3").click(function(){
-        $("#toggle-3").toggle();
-      });
-      $("#elem-4").click(function(){
-        $("#toggle-4").toggle();
-      });
-      $("#elem-5").click(function(){
-        $("#toggle-5").toggle();
-      });
-      $("#elem-6").click(function(){
-        $("#toggle-6").toggle();
-      });
-      $("#elem-7").click(function(){
-        $("#toggle-7").toggle();
-      });
-      $("#elem-8").click(function(){
-        $("#toggle-8").toggle();
-      });
-      $("#elem-9").click(function(){
-        $("#toggle-9").toggle();
-      });
-      $("#elem-10").click(function(){
-        $("#toggle-10").toggle();
-      });
+      </div> <!-- .col-md-9 -->
+    </div> <!-- .row -->
+  </div> <!-- .container .padding-main -->
+</body>
+<?php include '.././tree/foot-l2.html'; ?>
+<script>
+  $(document).ready(function() {
+    $("#elem-1").click(function() {
+      $("#toggle-1").toggle();
     });
-  </script>
-  
-  </div>
+    $("#elem-2").click(function() {
+      $("#toggle-2").toggle();
+    });
+    $("#elem-3").click(function() {
+      $("#toggle-3").toggle();
+    });
+    $("#elem-4").click(function() {
+      $("#toggle-4").toggle();
+    });
+    $("#elem-5").click(function() {
+      $("#toggle-5").toggle();
+    });
+    $("#elem-6").click(function() {
+      $("#toggle-6").toggle();
+    });
+    $("#elem-7").click(function() {
+      $("#toggle-7").toggle();
+    });
+    $("#elem-8").click(function() {
+      $("#toggle-8").toggle();
+    });
+    $("#elem-9").click(function() {
+      $("#toggle-9").toggle();
+    });
+    $("#elem-10").click(function() {
+      $("#toggle-10").toggle();
+    });
+  });
+</script>
+
+</html>
