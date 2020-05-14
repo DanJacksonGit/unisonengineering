@@ -3,7 +3,7 @@
 
 <head>
   <?php include '../head.html'; ?>
-  <link rel="stylesheet" type="text/css" href="../css/main.css">
+  <link rel="stylesheet" type="text/css" href="../css/main.min.css">
   <title>About ECA Disinfectant and How it can Work for Your Business - Get Sanitising and Keep Processing</title>
   <meta name="description" content="">
   <meta property="og:description" content="" />
@@ -44,7 +44,7 @@
           <figure>
             <img src="../img/covid-19.jpg" alt="">
             <figcaption>
-              <h3>Coronavirus Sanitation & ECA</h3>
+              <h3>Eco-Friendly Disinfectant for Coronavirus</h3>
             </figcaption>
           </figure>
           <p>

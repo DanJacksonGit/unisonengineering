@@ -3,10 +3,10 @@
 
 <head>
   <?php include '../../head.html'; ?>
-  <link rel="stylesheet" type="text/css" href="../../css/main.css">
+  <link rel="stylesheet" type="text/css" href="../../css/main.min.css">
   <title>Coronavirus Covid-19 and Electrochemical Activation Technology | Unison Engineering Services Ltd.</title>
-  <meta name="description" content="">
-  <meta property="og:description" content="" />
+  <meta name="description" content="How Eco-Friendly Electrochemical Activation Technology can be used to sanitise areas affected by coronavirus and other uses of the product.">
+  <meta property="og:description" content="How Eco-Friendly Electrochemical Activation Technology can be used to sanitise areas affected by coronavirus and other uses of the product." />
 </head>
 <header>
   <!-- Navigation -->
@@ -18,7 +18,7 @@
   <div class="article container padding-main">
     <div class="blog-header">
       <h1 class="blog-title">
-        ECA for Coronavirus COVID&#8209;19
+        Eco-Friendly Disinfectant for Coronavirus COVID&#8209;19
       </h1>
       <a href="../eca-disinfectant.php">
         <button class="back-button">
@@ -26,7 +26,7 @@
         </button>
       </a>
       <p class="lead blog-description">
-        How Electrochemical Activation Technology can be used to sanitise areas affected by coronavirus and other uses of the product.
+        How Eco-Friendly Electrochemical Activation Technology can be used to sanitise areas affected by coronavirus and other uses of the product.
       </p>
     </div>
     <div class="blog-main">

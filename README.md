@@ -1,4 +1,4 @@
-# Unison Engineering Website
+# Unison Engineering Website - RELEASE BUILD
 
 *This document gives <!-- an overview of how this website was set up and  -->a detailed overview of any patches and updates over time.*
 
@@ -14,12 +14,12 @@
 
 *(List the requirements for the project here, such as CMS, frameworks, plugins, etc.)*
 
-
+-->
 ## Project Notes <a name="project-notes"></a>
 
-*(Any project-specific, relevant notes go here. E.g. why you went with a certain plugin.)*
+**NOTE: When publishing release version make sure css links point to main.min.css file** 
 
-
+<!--
 ## Design Notes <a name="design-notes"></a>
 *(This may not be necessary, but if there's something about the design that needs to be noted, put it here.)*
  -->

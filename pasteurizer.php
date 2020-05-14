@@ -3,7 +3,7 @@
 
 <head>
   <?php include 'head.html'; ?>
-  <link rel="stylesheet" type="text/css" href="./css/main.css">
+  <link rel="stylesheet" type="text/css" href="./css/main.min.css">
   <title>Pasteurizers, Homogenisers, Heat Exchangers, Pumps, Valves, Service and Testing of Process Equipment | Unison Engineering Services Ltd.</title>
   <script src="./js/javascript.js"></script>
   <script src="./js/jquery.min.js"></script>
