@@ -5,8 +5,8 @@
   <?php include '../head.html'; ?>
   <link rel="stylesheet" type="text/css" href="../css/main.css">
   <title>About ECA Disinfectant and How it can Work for Your Business - Get Sanitising and Keep Processing</title>
-  <meta name="description" content="">
-  <meta property="og:description" content="" />
+  <meta name="description" content="Get a clearer understanding about what we can do to help keep your work and process environment sanitised. Introducing Electrochemical Activation (ECA) Disinfectant Technology.">
+  <meta property="og:description" content="Get a clearer understanding about what we can do to help keep your work and process environment sanitised. Introducing Electrochemical Activation (ECA) Disinfectant Technology." />
 </head>
 <header>
   <!-- Navigation -->

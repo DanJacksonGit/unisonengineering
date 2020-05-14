@@ -5,8 +5,8 @@
   <?php include '../../head.html'; ?>
   <link rel="stylesheet" type="text/css" href="../../css/main.css">
   <title>Validation | Unison Engineering Services Ltd.</title>
-  <meta name="description" content="">
-  <meta property="og:description" content="" />
+  <meta name="description" content="The Unison ECA reactor is valid based on EGTOP/2016 adoption of technical advice 14-15 Dec 2015.">
+  <meta property="og:description" content="The Unison ECA reactor is valid based on EGTOP/2016 adoption of technical advice 14-15 Dec 2015." />
 </head>
 <header>
   <!-- Navigation -->

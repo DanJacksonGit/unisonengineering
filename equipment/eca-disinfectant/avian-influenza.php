@@ -5,8 +5,8 @@
   <?php include '../../head.html'; ?>
   <link rel="stylesheet" type="text/css" href="../../css/main.css">
   <title>How ECA Can Combat Avian Influenza | Unison Engineering Services Ltd.</title>
-  <meta name="description" content="">
-  <meta property="og:description" content="" />
+  <meta name="description" content="Sanitise your farm, maintain safe drinking water for your animals and properly sanitise workwear and PPE with Unison’s Neutral Anolyte ECA Disinfectant for Avian Influenza (Bird Flu).">
+  <meta property="og:description" content="Sanitise your farm, maintain safe drinking water for your animals and properly sanitise workwear and PPE with Unison’s Neutral Anolyte ECA Disinfectant for Avian Influenza (Bird Flu)." />
 </head>
 <header>
   <!-- Navigation -->
@@ -25,7 +25,7 @@
         </button>
       </a>
       <p class="lead blog-description">
-        Sanitise your farm, maintain safe drinking water for your flock and properly sanitise workwear and PPE with Unison’s Neutral Anolyte ECA Disinfectant for Avian Influenza (Bird Flu).
+        Sanitise your farm, maintain safe drinking water for your animals and properly sanitise workwear and PPE with Unison’s Neutral Anolyte ECA Disinfectant for Avian Influenza (Bird Flu).
       </p>
     </div>
     <div class="blog-main">
