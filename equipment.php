@@ -46,11 +46,11 @@
           <figure>
             <img src="./img/eca-category.jpg" alt="An image to depict Electro-Chemical Activation water disinfectant">
             <figcaption>
-              <h3><small style="margin-top:0px;margin-bottom:0px;font-size:0.5em;text-transform:uppercase;color:var(--secondary)">New!</small><br />ECA Disinfectant</h3>
+              <h3><small style="margin-top:0px;margin-bottom:0px;font-size:0.5em;text-transform:uppercase;color:var(--secondary)">New!</small><br />Coronavirus Disinfectant</h3>
             </figcaption>
           </figure>
-          <p>ECA Disinfectant can do...</p>
-          <a href="./equipment/eca-disinfectant.php"><button>Learn more about ECA Disinfectant</button></a>
+          <p>Information on Unison's Electrochemical Activation (ECA) Disinfectant and Cleaning Technology.</p>
+          <a href="./equipment/eca-disinfectant.php"><button>Learn more about Coronavirus Disinfectant</button></a>
         </li>
         <li>
           <figure>

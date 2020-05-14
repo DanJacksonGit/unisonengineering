@@ -32,8 +32,8 @@
       <div class="blog-post">
         <img class="img-fluid" src="../../img/avian-influenza.jpg" />
         <p class="blog-post-meta">
-          11 May 2020 | X minute read
-          <!-- X/238=X:XXmin - Based on non-fiction reading @ 238WPM(Brysbaert, 2019 - DOI:10.3123). -->
+          13 May 2020 | 3 minute read
+          <!-- 745/238=3:07min - Based on non-fiction reading @ 238WPM(Brysbaert, 2019 - DOI:10.3123). -->
         </p>
         <h3 class="blog-post-title">
           What is Avian Influenza?
@@ -136,9 +136,9 @@
       </div><!-- /.blog-post -->
     </div><!-- /.blog-main -->
     <div class="related-topics">
-      <div class="list-card ">
+      <!-- <div class="list-card ">
         <a href="../../assets/unison-avian-influenza.pdf">Download Extended PDF</a>
-      </div> <!-- .button-main -->
+      </div> --> <!-- .button-main -->
       <h4>Related Topics</h4>
       <div class="list-card ">
         <a href="./about-eca.php">About ECA &rarr;</a><br />

@@ -34,9 +34,8 @@
             </figcaption>
           </figure>
           <p>
-            Easy-to-understand information on Electrochemical Activation (ECA) Water Technology.
+            An overview of Electrochemical Activation (ECA) Water Technology.
             <br />3 minute read
-            <!-- REVIEW -->
           </p>
           <a href="eca-disinfectant/about-eca.php"><button>Find out more about ECA Technology</button></a>
         </li>
@@ -50,8 +49,7 @@
           </figure>
           <p>
             How Electro Chemical Activation (ECA) Disinfectant can help businesses combat COVID&#8209;19 and other diseases.
-            <br />5 minute read
-            <!-- REVEIW -->
+            <br />3 minute read
           </p>
           <a href="eca-disinfectant/covid-19.php"><button>Read about Coronavirus & ECA</button></a>
         </li>
@@ -64,24 +62,22 @@
             </figcaption>
           </figure>
           <p>
-            What Electrchemical Activation (ECA) Disinfectant Water can do to manage Avian Influenza (AI).
-            <br />7 minute read
-            <!-- REVEIW -->
+            What Electrochemical Activation (ECA) Disinfectant Water can do to manage Avian Influenza (AI).
+            <br />3 minute read
           </p>
-          <a href="eca-disinfectant/validation.php"><button>Read about Bird Flu & ECA</button></a>
+          <a href="eca-disinfectant/avian-influenza.php"><button>Read about Bird Flu & ECA</button></a>
         </li>
         <!-- List item 4 -->
         <li>
           <figure>
-            <img src="../img/placeholder.jpg" alt="">
+            <img src="../img/validation.jpg" alt="">
             <figcaption>
               <h3>ECA Validation</h3>
             </figcaption>
           </figure>
           <p>
-            Follows the E.U. standard XYZ for ABC, reference study New York City, Texas etc. etc.
-            <br />5 minute read
-            <!-- REVEIW -->
+          The Unison ECA reactor is valid based on EGTOP/2016 adoption of technical advice 14-15 Dec 2015.
+            <br />1 minute read
           </p>
           <a href="eca-disinfectant/validation.php"><button>Read about ECA Validation</button></a>
         </li>

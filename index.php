@@ -17,7 +17,7 @@
     <div class="atf-blocks">
       <div class="cta-1">
         <h1>Pasteurize from 200 to 20,000<small>L/hr</small></h1>
-        <h5 style="font-weight:300">With the Unison <abbr title="High Temperature, Short Time">HTST</abbr> Compact Flash Pasteurizer</h5><img src="./img/hero-image@1x.png" loading="eager" alt="Unison Compact Pasteurizer" /><span><button onclick="window.location.href='./pasteurizer.php'">Learn More</button><button id="secondary-button-cta-1" onclick="window.location.href='./pasteurizer/pasteurizer-enquiry-form.php'">Enquire Now</button></span>
+        <h5 style="font-weight:300">With the Unison <abbr title="High Temperature, Short Time">HTST</abbr> Compact Flash Pasteurizer</h5><img src="./img/hero-image@0,2x.png" loading="eager" alt="Unison Compact Pasteurizer" /><span><button onclick="window.location.href='./pasteurizer.php'">Learn More</button><button id="secondary-button-cta-1" onclick="window.location.href='./pasteurizer/pasteurizer-enquiry-form.php'">Enquire Now</button></span>
       </div>
       <div class="cta-2">
         <h2>Homogeniser & <abbr title="Plate Heat Exchanger">PHE</abbr> Spare Parts</h2>

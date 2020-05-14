@@ -62,7 +62,7 @@
 
 	**Short summary:** Added new content to reflect Covid-19 global pandemic and product Unison make that can sanitise this. Also addressed some UI annoyances and made some UX improvements. formatted code and implemented a minified css sheet for production build.
 	
-	- **When:** 5 - 11 May 2020
+	- **When:** 5 - 13 May 2020
 	- **File(s):**
 	
 	  - New:
@@ -103,6 +103,7 @@
 		- [Home](./index.php) 
 			- Formatting
 			- Line #15 covid banner component added
+			- Line #20 compressed image to 20% for better loading times
 		- [Homogenisers](./homogenisers.php) Formatting, added covid banner, #22-27 added button pointed to 'Equipment & Products' - improve UX. Fixed incorrect footer component link.
 		- [Nav](./nav.html)
 			- General formatting for readability
