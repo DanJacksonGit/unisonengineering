@@ -59,7 +59,7 @@
           </strong>
         </p>
         <p>
-          Our product is active for a maximum of 48 to 72 hours after being produced and has a neutral pH of 6.5 ± 0.5. The product degrades back into natural water product with neutral pH after this. We can produce disinfectant with an Oxygen Reducing Potential (ORP) of between 750 - 900 mV and Free Available Chlorine (FAC, a bio-degradable chlorine product) up to 500 ppm. For disinfecting, we use diluted FAC to 1.75 ± 0.25 ppm in accordance with EU recommendations. 
+          Our product is active for a maximum of 30 days after being produced and has a neutral pH of 6.5 ± 0.5. The product degrades back into natural water product with neutral pH after this. We can produce disinfectant with an Oxygen Reducing Potential (ORP) of between 750 - 900 mV and Free Available Chlorine (FAC, a bio-degradable chlorine product) up to 500 ppm. For disinfecting, we use diluted FAC to 1.75 ± 0.25 ppm in accordance with EU recommendations. 
         </p>
         <h3>
           Patented process at Unison Engineering
