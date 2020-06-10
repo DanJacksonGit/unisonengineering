@@ -151,6 +151,21 @@
 			- Line #1780 		Added max-width to .equipment-nav li - UI improvement
 			- Line #1802		Added margin to mobile .list-card
 
+4. **Form tweaks**
+	
+	 Direct users enquiring about pasteurizers to use pasteuriser enquiry form instead of general contact form.
+	
+	- **When:** 10 June 2020
+	- **File(s):**
+		- [Pasteurizer Enquiry Form](./pasteurizer/pasteurizer-enquiry-form.php)
+			- Line #71-72 		Copy change on textbox label from 'flow rate' to 'desired flow rate'. Added required attribute to field.
+			- Line #78 			Added required attribute to field.
+			- Line #85 			Added required attribute to field.
+			- Line #91 			Added required attribute to field.
+			- Line #97 			Added required attribute to field.
+		- [Contact Form](./contact.php)
+			- Line #22-23 		Copy change. Got rid of 'here to help' h2 and replaced it with information and hyperlink to pasteurizer enquiry form.
+
 ### Hacks/Kludges/Patches
 
 1. **MS Edge & Firefox Incompatibility with CSS Grid Markup**

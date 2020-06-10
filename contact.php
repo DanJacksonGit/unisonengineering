@@ -19,8 +19,9 @@
       <fieldset class="c-form">
         <!-- Legend: defines caption for Fieldset -->
         <h1>Get in Touch With Us</h1>
-        <h2>We are here to help</h2>
-        <p>Expect an enquiry response within 2 working days.</p>
+        <p>
+        Is your enquiry about Pasteurizers? For a faster quote, use our <a href="pasteurizer/pasteurizer-enquiry-form.php">Pasteurizer enquiry form</a>.
+        </p>
 
         <!-- Name -->
         <div class="c-form__row">
