@@ -4,7 +4,7 @@
 <head>
   <?php include './head.html'; ?>
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="./css/main.min.css">
+  <link rel="stylesheet" type="text/css" href="./css/main.css">
   <meta name="description" content="Contact Unison Engineering Services Ltd. Limerick. Unit 5 Kilmallock Road Enterprise Centre.">
   <meta property="og:description" content="Contact Unison Engineering Services Ltd. Limerick. Unit 5 Kilmallock Road Enterprise Centre." />
   <title>Contact | Unison Engineering Services Ltd.</title>
@@ -19,8 +19,9 @@
       <fieldset class="c-form">
         <!-- Legend: defines caption for Fieldset -->
         <h1>Get in Touch With Us</h1>
-        <h2>We are here to help</h2>
-        <p>Expect an enquiry response within 2 working days.</p>
+        <p>
+        Is your enquiry about Pasteurizers? For a faster quote, use our <a href="pasteurizer/pasteurizer-enquiry-form.php">Pasteurizer enquiry form</a>.
+        </p>
 
         <!-- Name -->
         <div class="c-form__row">

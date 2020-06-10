@@ -3,7 +3,7 @@
 
 <head>
     <?php include '../head.html'; ?>
-    <link rel="stylesheet" type="text/css" href="../css/main.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
     <title>Unison Pasteurizer Enquiry</title>
     <meta name="description" content="Unison Engineering Services Ltd. are providers of Pasteurisers, Homogenisers, Heat Exchangers, Pumps and Valves as well as trusted Servicing and Testing partners for Process Equipment">
     <meta property="og:description" content="Unison Engineering Services Ltd. are providers of Pasteurisers, Homogenisers, Heat Exchangers, Pumps and Valves as well as trusted Servicing and Testing partners for Process Equipment" />
@@ -68,33 +68,33 @@
 
                 <!-- Flow rate -->
                 <div class="c-form__row" style="display:inline-block;width:45%;">
-                    <label for="flowRate" class="c-label">Flow Rate <br /><small style="padding-bottom:0;">e.g. 250 L/hr</small></label><br />
-                    <input type="number" name="flowRate" id="flowRate" class="c-input-field" class="c-input-field-number" tabindex="7" min="10" max="100000" style="width:50%">
+                    <label for="flowRate" class="c-label">Desired Flow Rate <br /><small style="padding-bottom:0;">e.g. 250 L/hr</small></label><br />
+                    <input type="number" name="flowRate" id="flowRate" class="c-input-field" class="c-input-field-number" tabindex="7" min="10" max="100000" style="width:50%" required>
                 </div>
 
                 <!-- Pasteurizing Temp -->
                 <div class="c-form__row" style="display:inline-block;width:45%;">
                     <label for="temp" class="c-label">Pasteurizing Temperature <br /><small style="padding-bottom:0;">e.g. 70&#8451;</small></label><br />
-                    <input type="number" name="temp" id="temp" class="c-input-field" class="c-input-field-number" tabindex="8" min="1" max="300" style="width:35%;">
+                    <input type="number" name="temp" id="temp" class="c-input-field" class="c-input-field-number" tabindex="8" min="1" max="300" style="width:35%;" required>
                 </div>
                 <br />
 
                 <!-- Inlet Temp -->
                 <div class="c-form__row" style="display:inline-block;width:45%;">
                     <label for="inlet" class="c-label">Inlet Temperature <br /><small style="padding-bottom:0;">e.g. 4&#8451;</small></label><br />
-                    <input type="number" name="inlet" id="inlet" class="c-input-field" class="c-input-field-number" tabindex="9" min="1" max="100" style="width:35%">
+                    <input type="number" name="inlet" id="inlet" class="c-input-field" class="c-input-field-number" tabindex="9" min="1" max="100" style="width:35%" required>
                 </div>
 
                 <!-- Outlet Temp -->
                 <div class="c-form__row" style="display:inline-block;width:45%;">
                     <label for="inlet" class="c-label">Outlet Temperature <br /><small style="padding-bottom:0;">e.g. 32&#8451;</small></label><br />
-                    <input type="number" name="outlet" id="outlet" class="c-input-field" class="c-input-field-number" tabindex="10" min="1" max="100" style="width:40%">
+                    <input type="number" name="outlet" id="outlet" class="c-input-field" class="c-input-field-number" tabindex="10" min="1" max="100" style="width:40%" required>
                 </div>
 
                 <!-- Holding time -->
                 <div class="c-form__row" style="display:inline-block;width:45%;">
                     <label for="holdingTime" class="c-label">Holding Time <br /><small style="padding-bottom:0;">e.g. 16 Seconds</small></label><br />
-                    <input type="number" name="holdingTime" id="holdingTime" class="c-input-field" class="c-input-field-number" tabindex="11" min="0" style="width:35%">
+                    <input type="number" name="holdingTime" id="holdingTime" class="c-input-field" class="c-input-field-number" tabindex="11" min="0" style="width:35%" required>
                 </div>
 
                 <!-- Electricity -->
