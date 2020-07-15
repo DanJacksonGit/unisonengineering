@@ -13,9 +13,8 @@
 <body>
   <header>
     <?php include 'nav.html'; ?>
-    <?php include 'covid-banner.html'; ?>
   </header>
-  <div class="container padding-lr-3">
+  <div class="container covid-patch padding-lr-3">
     <!--START SEC 1-->
     <div class="row">
       <div class="col-md-8">

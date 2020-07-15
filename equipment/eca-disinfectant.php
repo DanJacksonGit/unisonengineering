@@ -11,10 +11,9 @@
 <header>
   <!-- Navigation -->
   <?php include '../tree/nav-l2.html'; ?>
-  <?php include '../tree/covid-banner-l2.html'; ?>
 </header>
 <main>
-  <div class="container">
+  <div class="container covid-patch">
     <section class="category-selection" id="category-selection">
       <!-- Page heading -->
       <h1>ECA Disinfectant</h1>

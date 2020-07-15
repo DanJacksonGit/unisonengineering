@@ -10,10 +10,9 @@
 </head>
 <header>
   <?php include 'nav.html'; ?>
-  <?php include 'covid-banner.html'; ?>
 </header>
 <main>
-  <div class="container">
+  <div class="container covid-patch">
     <section class="category-selection" id="category-selection">
       <h1 style="margin-bottom:10px;">Equipment & Products</h1>
       <p style="margin-bottom: 40px;max-width:800px;">In addition to our innovative in-house technologies like ECA Disinfectant Water and cost-efficient processing equipment, we offer a range of new and used equipment such as homogenisers, pasteurizers, heat exchangers, pumps, valves and more</p>

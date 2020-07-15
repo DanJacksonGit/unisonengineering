@@ -11,8 +11,7 @@
 
 <body>
   <?php include '.././tree/nav-l2.html'; ?>
-  <?php include '.././tree/covid-banner-l2.html'; ?>
-  <div class="container padding-main">
+  <div class="container covid-patch padding-main">
     <!-- Equipment type details -->
     <div class="row">
       <div class="col-md-8">

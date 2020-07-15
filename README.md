@@ -166,6 +166,42 @@
 		- [Contact Form](./contact.php)
 			- Line #22-23 		Copy change. Got rid of 'here to help' h2 and replaced it with information and hyperlink to pasteurizer enquiry form.
 
+5. **Removal of some Covid-19 banners**
+
+	**Short summary:** Removed some covid banners as requested by Mark Hanrahan on 25 June 2020 @ 9:29. Covid banner was left on home page.
+	
+	- **When:** 15 July 2020
+	- **File(s):**
+
+	  - Updated
+	  	- [ECA Disinfectant](./equipment/eca-disinfectant.php) 
+		  	- Line #14 php inlude line removed. padding reintroduced through 'covid-patch' class in container on line #16
+		- [Equipment & Products](./equipment.php) 
+			- Line #13 php inlude line removed. padding reintroduced through 'covid-patch' class in container on line #15
+		- [Heat Exchangers](./heat-exchangers.php) 
+			- Line #16 php inlude line removed. padding reintroduced through 'covid-patch' class in container on line #17
+		- [Homogenisers](./homogenisers.php) 
+			- Line #17 php inlude line removed. padding reintroduced through 'covid-patch' class in container on line #18
+		- [Other Miscellaneous Equipment](./other.php) 
+			- Line #16 php inlude line removed. padding reintroduced through 'covid-patch' class in container on line #16
+		- [Pasteurisers (Product Result Page)](./pasteurisers.php) 
+			- Line #14 php inlude line removed. padding reintroduced through 'covid-patch' class in container on line #14
+		- [Pumps](./pumps.php) 
+			- Line #16 php inlude line removed. padding reintroduced through 'covid-patch' class in container on line #16
+		- [Service](./service.php) 
+			- Line #14 php inlude line removed. padding reintroduced through 'covid-patch' class on container class: line #16
+		- [Spares](./spares.php) 
+			- Line #16 php inlude line removed. padding reintroduced through 'covid-patch' class on container class: line #17
+		- [Testing](./testing.php) 
+			- Line #14 php inlude line removed. padding reintroduced through 'covid-patch' class on container class: line #15
+		- [Valves](./valves.php) 
+			- Line #18 php inlude line removed. padding reintroduced through 'covid-patch' class in container on line #18
+		- [CSS Stylesheet (Non-minified)](./css/main.css) 
+			Along with formatting and comments to make things easier to understand:
+			- Line #353 		New class: covid patch with top padding to compensate for lack of covid banner on some pages 
+			- Line #366-367 	'PUT BACK WHEN COVID IS REMOVED' comment uncommented. 'padding-top:65px' was the content on container class.
+			- Line #760-763  		'PUT BACK WHEN COVID IS REMOVED' comment uncommented. 'padding-top:130px' was the content on container class.
+
 ### Hacks/Kludges/Patches
 
 1. **MS Edge & Firefox Incompatibility with CSS Grid Markup**
