@@ -350,6 +350,10 @@ td {
   overflow-x: hidden; /* hide horizontal scrolling etc. */
 }
 
+.covid-patch {
+  padding-top: 120px !important;
+}
+
 .container-no-top {
   max-width: 1600px;
   margin: 0 auto 2em auto; /* No top margin */
@@ -363,10 +367,7 @@ td {
   /* phone container margins & padding */
   .container {
     margin: 1em 2vw;
-    /*     
-    PUT BACK IN WHEN COVID IS REMOVED 
     padding-top: 65px; 
-    */
     max-width: 100%;
   }
 
@@ -757,10 +758,9 @@ button.collapsible {
   nav ul li {
     padding-top: 5px;
   }
-  /* PUT BACK AFTER COVID
   .container {
     padding-top: 130px;
-  } */
+  }
 }
 
 /* for-tablet-portrait-and-up: @media (min-width: 600px) */

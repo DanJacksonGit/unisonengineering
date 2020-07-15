@@ -4,7 +4,7 @@
 <head>
   <?php include './head.html'; ?>
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="./css/main.min.css">
+  <link rel="stylesheet" type="text/css" href="./css/main.css">
   <meta name="description" content="Unison Engineering Services Ltd. are leading suppliers, producers and servicing partners for process equipment in the food, beverage and liquid processing industries. Unison Engineering Services Ltd. specialise in Homogenisers, Pasteurisers, Heat Exchangers, Pumps, Valves and More.">
   <meta property="og:description" content="Unison Engineering are leading suppliers, producers and servicing partners for process equipment in the food, beverage and liquid processing industries. Unison specialise in Homogenisers, Pasteurisers, Heat Exchangers, Pumps, Valves and More." />
   <title>Spare Parts for Pasteurisers, Homogenisers, Heat Exchangers, Pumps and Valves | Unison Engineering Services Ltd.</title>
@@ -13,9 +13,8 @@
 <body>
   <header>
     <?php include 'nav.html'; ?>
-    <?php include 'covid-banner.html'; ?>
   </header>
-  <div class="container padding-lr-3">
+  <div class="container covid-patch padding-lr-3">
     <!--START SEC 1-->
     <div class="row">
       <div class="col-md-8">

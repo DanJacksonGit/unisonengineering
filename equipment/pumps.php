@@ -4,7 +4,7 @@
 <head>
   <?php include '../head.html'; ?>
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="../css/main.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/main.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <meta name="description" content="We are sole distributors of Evoguard pumps in Ireland. Evoguard offers innovative centrifugal pumps for the food and beverage industries and also for aseptic applications. Evoguard pumps meet the highest standards for product quality, hygiene, reliability and energy efficiency. We also supply quality pumps from Alfa Laval, APV, GEA, Waukesha, Fristam, SPX, Packo and others.">
   <title>Fluid Process Pumps, Centrifugal Hygeinic and Aseptic Pumps, Recirculation Pumps | Unison Engineering Services Ltd.</title>
@@ -13,8 +13,7 @@
 <body>
   <!-- Navigation -->
   <?php include '.././tree/nav-l2.html'; ?>
-  <?php include '.././tree/covid-banner-l2.html'; ?>
-  <div class="container padding-main">
+  <div class="container covid-patch padding-main">
     <!-- Equipment type details -->
     <div class="row">
       <div class="col-md-8">
